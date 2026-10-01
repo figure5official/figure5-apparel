@@ -343,9 +343,91 @@
     </div>
     <div class="head-rule"></div>
   </div>
-  <div style="text-align:center; padding:60px 20px; border:1px solid rgba(255,255,255,0.08);">
-    <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--silver-mid); letter-spacing:.1em;">MORE EVENTS COMING SOON</div>
-    <div style="font-family:'Teko',sans-serif; font-size:1rem; color:var(--muted); letter-spacing:.2em; margin-top:10px; text-transform:uppercase;">Stay tuned — follow us for updates</div>
+
+  <div style="display:flex; flex-direction:column; gap:24px;">
+
+    <!-- EVENT 1: NPHC Step Show -->
+    <div id="event-nphc" style="background:var(--panel); border:1px solid rgba(255,255,255,0.08); padding:32px; display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center;">
+      <div>
+        <div style="font-family:'Teko',sans-serif; font-weight:700; font-size:.7rem; letter-spacing:.4em; text-transform:uppercase; color:var(--silver-mid); margin-bottom:10px;">Performance</div>
+        <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1; margin-bottom:20px;">NPHC Step Show</div>
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <div style="display:flex; align-items:center; gap:12px; font-family:'Teko',sans-serif; font-size:1rem; color:var(--muted);">
+            <span>📅</span> October 9, 2026
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; font-family:'Teko',sans-serif; font-size:1rem; color:var(--muted);">
+            <span>🕐</span> Doors Open 6:00 PM &nbsp;·&nbsp; Show 7:00 PM – 9:30 PM
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; font-family:'Teko',sans-serif; font-size:1rem; color:var(--muted);">
+            <span>📍</span> NIC Convocation Center
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'Teko',sans-serif; font-size:.7rem; letter-spacing:.4em; color:var(--silver-mid); text-transform:uppercase; margin-bottom:14px;">Countdown to Showtime</div>
+        <div style="display:inline-grid; grid-template-columns:repeat(4,1fr); gap:8px;" id="nphc-countdown">
+          <div style="background:var(--dark); padding:14px 10px; min-width:70px;">
+            <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1;" id="nphc-days">00</div>
+            <div style="font-family:'Teko',sans-serif; font-size:.65rem; letter-spacing:.3em; color:var(--silver-mid); text-transform:uppercase; margin-top:4px;">Days</div>
+          </div>
+          <div style="background:var(--dark); padding:14px 10px; min-width:70px;">
+            <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1;" id="nphc-hours">00</div>
+            <div style="font-family:'Teko',sans-serif; font-size:.65rem; letter-spacing:.3em; color:var(--silver-mid); text-transform:uppercase; margin-top:4px;">Hours</div>
+          </div>
+          <div style="background:var(--dark); padding:14px 10px; min-width:70px;">
+            <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1;" id="nphc-mins">00</div>
+            <div style="font-family:'Teko',sans-serif; font-size:.65rem; letter-spacing:.3em; color:var(--silver-mid); text-transform:uppercase; margin-top:4px;">Mins</div>
+          </div>
+          <div style="background:var(--dark); padding:14px 10px; min-width:70px;">
+            <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1;" id="nphc-secs">00</div>
+            <div style="font-family:'Teko',sans-serif; font-size:.65rem; letter-spacing:.3em; color:var(--silver-mid); text-transform:uppercase; margin-top:4px;">Secs</div>
+          </div>
+        </div>
+        <div id="nphc-done" style="display:none; font-family:'Bebas Neue',cursive; font-size:1.8rem; color:var(--silver); margin-top:12px;">IT'S SHOWTIME! 🏆</div>
+      </div>
+    </div>
+
+    <!-- EVENT 2: Daytime Chicago -->
+    <div id="event-chicago" style="background:var(--panel); border:1px solid rgba(255,255,255,0.08); padding:32px; display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center;">
+      <div>
+        <div style="font-family:'Teko',sans-serif; font-weight:700; font-size:.7rem; letter-spacing:.4em; text-transform:uppercase; color:var(--silver-mid); margin-bottom:10px;">TV Appearance 📺</div>
+        <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1; margin-bottom:20px;">Daytime Chicago</div>
+        <div style="display:flex; flex-direction:column; gap:12px;">
+          <div style="display:flex; align-items:center; gap:12px; font-family:'Teko',sans-serif; font-size:1rem; color:var(--muted);">
+            <span>📅</span> October 16, 2026
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; font-family:'Teko',sans-serif; font-size:1rem; color:var(--muted);">
+            <span>🕐</span> 10:00 AM
+          </div>
+          <div style="display:flex; align-items:center; gap:12px; font-family:'Teko',sans-serif; font-size:1rem; color:var(--muted);">
+            <span>📺</span> Tune in on your local TV!
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-family:'Teko',sans-serif; font-size:.7rem; letter-spacing:.4em; color:var(--silver-mid); text-transform:uppercase; margin-bottom:14px;">Countdown to Airtime</div>
+        <div style="display:inline-grid; grid-template-columns:repeat(4,1fr); gap:8px;" id="chicago-countdown">
+          <div style="background:var(--dark); padding:14px 10px; min-width:70px;">
+            <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1;" id="chicago-days">00</div>
+            <div style="font-family:'Teko',sans-serif; font-size:.65rem; letter-spacing:.3em; color:var(--silver-mid); text-transform:uppercase; margin-top:4px;">Days</div>
+          </div>
+          <div style="background:var(--dark); padding:14px 10px; min-width:70px;">
+            <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1;" id="chicago-hours">00</div>
+            <div style="font-family:'Teko',sans-serif; font-size:.65rem; letter-spacing:.3em; color:var(--silver-mid); text-transform:uppercase; margin-top:4px;">Hours</div>
+          </div>
+          <div style="background:var(--dark); padding:14px 10px; min-width:70px;">
+            <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1;" id="chicago-mins">00</div>
+            <div style="font-family:'Teko',sans-serif; font-size:.65rem; letter-spacing:.3em; color:var(--silver-mid); text-transform:uppercase; margin-top:4px;">Mins</div>
+          </div>
+          <div style="background:var(--dark); padding:14px 10px; min-width:70px;">
+            <div style="font-family:'Bebas Neue',cursive; font-size:2.5rem; color:var(--white); line-height:1;" id="chicago-secs">00</div>
+            <div style="font-family:'Teko',sans-serif; font-size:.65rem; letter-spacing:.3em; color:var(--silver-mid); text-transform:uppercase; margin-top:4px;">Secs</div>
+          </div>
+        </div>
+        <div id="chicago-done" style="display:none; font-family:'Bebas Neue',cursive; font-size:1.8rem; color:var(--silver); margin-top:12px;">ON AIR NOW! 📺</div>
+      </div>
+    </div>
+
   </div>
 </section>
 
@@ -626,6 +708,42 @@
     banner.style.display = 'block';
     banner.scrollIntoView({ behavior:'smooth', block:'center' });
   }
+    // NPHC Step Show countdown — auto hides after Oct 9 2026
+  function updateNPHC() {
+    const target = new Date('October 9, 2026 19:00:00').getTime();
+    const now = new Date().getTime();
+    const diff = target - now;
+    if (diff <= 0) {
+      document.getElementById('nphc-countdown').style.display = 'none';
+      document.getElementById('nphc-done').style.display = 'block';
+      return;
+    }
+    document.getElementById('nphc-days').textContent  = String(Math.floor(diff / (1000*60*60*24))).padStart(2,'0');
+    document.getElementById('nphc-hours').textContent = String(Math.floor((diff%(1000*60*60*24))/(1000*60*60))).padStart(2,'0');
+    document.getElementById('nphc-mins').textContent  = String(Math.floor((diff%(1000*60*60))/(1000*60))).padStart(2,'0');
+    document.getElementById('nphc-secs').textContent  = String(Math.floor((diff%(1000*60))/1000)).padStart(2,'0');
+  }
+  updateNPHC();
+  setInterval(updateNPHC, 1000);
+
+  // Daytime Chicago countdown — auto hides after Oct 16 2026
+  function updateChicago() {
+    const target = new Date('October 16, 2026 10:00:00').getTime();
+    const now = new Date().getTime();
+    const diff = target - now;
+    if (diff <= 0) {
+      document.getElementById('chicago-countdown').style.display = 'none';
+      document.getElementById('chicago-done').style.display = 'block';
+      return;
+    }
+    document.getElementById('chicago-days').textContent  = String(Math.floor(diff / (1000*60*60*24))).padStart(2,'0');
+    document.getElementById('chicago-hours').textContent = String(Math.floor((diff%(1000*60*60*24))/(1000*60*60))).padStart(2,'0');
+    document.getElementById('chicago-mins').textContent  = String(Math.floor((diff%(1000*60*60))/(1000*60))).padStart(2,'0');
+    document.getElementById('chicago-secs').textContent  = String(Math.floor((diff%(1000*60))/1000)).padStart(2,'0');
+  }
+  updateChicago();
+  setInterval(updateChicago, 1000);
+  
   // Tryouts countdown — auto hides after May 16 2026 10am
   function updateTryouts() {
     const target = new Date('May 16, 2026 10:00:00').getTime();
